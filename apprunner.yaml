@@ -2,13 +2,8 @@ version: 1.0
 runtime: nodejs12
 build:
   commands:
-    pre-build:
-      - npm install --only=dev
-      - node test.js
     build:
       - npm install --production
-    post-build:
-      - node node_modules/ejs/postinstall.js
   env:
     - name: TEST_ENV
       value: "Test for environment"
