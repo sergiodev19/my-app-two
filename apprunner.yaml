@@ -15,7 +15,6 @@ run:
   command: npm run start
   network:
     port: 3000
-    env: APP_PORT
   env:
     - name: TEST_ENV
       value: "Test for environment"

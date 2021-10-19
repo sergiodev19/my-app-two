@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send(`
         <h1> Express Demo App </h1>
         <h4> Message: Success </h4>
-        <p> Version 1.1 </p>
+        <p> Version 2.2 </p>
         <p style="color:red;"> ${process.env.TEST_ENV} </p>
   `);
 });
