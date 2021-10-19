@@ -7,6 +7,8 @@ build:
   env:
     - name: TEST_ENV
       value: "Test for environment"
+    - name: AWS_SDK_LOAD_CONFIG
+      value: 1
 run:
   runtime-version: 12.22.6
   command: npm start
@@ -16,3 +18,5 @@ run:
   env:
     - name: TEST_ENV
       value: "Test for environment"
+    - name: AWS_SDK_LOAD_CONFIG
+      value: 1
