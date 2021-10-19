@@ -1,0 +1,24 @@
+{
+  "name": "my-app-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiodev19/my-app-two.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiodev19/my-app-two/issues"
+  },
+  "homepage": "https://github.com/sergiodev19/my-app-two#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
